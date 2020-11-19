@@ -1,0 +1,143 @@
+:root{
+    --color-principal: #2edf92;
+    --progess-bg: #dadada;
+    --font-name: 'Caveat', cursive;
+
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.nav-link:hover{
+    color: #37a576;
+}
+.nav-link{
+    color: var(--color-principal);
+}
+.active{
+    color: #37a576;
+}
+.navbar-toggler:active{
+    border: 0;
+}
+.navbar-brand{
+    display: hidden;
+}
+
+.container-header{
+    display: flex;
+    padding: 20px;
+    
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    font-family: var(--font-name);
+}
+.container-services{
+    background: var(--color-principal);
+    color: white;
+    text-align: center;
+    padding: 70px 24px;
+}
+.about-me .desc{
+    color: var(--color-principal);
+    font-size: 18px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.logo i.fas{
+    font-size: 65px;
+    color: #000;
+}
+.container-abilities{
+    padding: 70px 170px; 
+}
+.container-progress .progress-bar{
+    background: var(--color-principal);
+}
+.progress{
+    background: #adadadb9;
+}
+.progress .html{
+    width: 95%!important;
+}
+.progress .css{
+    width: 60%!important;
+}
+.progress .js{
+    width: 15%!important;
+}
+.progress .ps{
+    width: 35%!important;
+}
+.progress .db{
+    width: 20%!important;
+}
+.footer{
+    height: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-social i.fab{
+    font-size: 30px;
+}
+.container-social i.fab:hover{
+    font-size: 25px;
+    transition: font-size 0.5s;
+    -webkit-transition: font-size 0.5s;
+    -moz-transition: font-size 0.5s;
+    -ms-transition: font-size 0.5s;
+    -o-transition: font-size 0.5s;
+}
+.container-social a{
+    margin: 0 7px;
+}
+.container-social a:hover{
+    text-decoration: none;
+}
+.fa-instagram{
+    color: #c335af;
+}
+.fa-twitter{
+    color: #28a5dc;
+}
+.fa-facebook{
+    color: #0075f0;
+}
+.fa-linkedin{
+    color: #0071af;
+}
+.container-aboutme{
+    padding: 20px;
+}
+.aboutme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-like{
+    text-align: center;
+}
+.title{
+    color: var(--color-principal);
+}
+.container-contact{
+    height: 61vh;
+    padding: 8rem!important;
+}
+
+
+@media only screen and (max-width: 768px) {
+    
+    .aboutme{
+        display: block;
+    }
+    .name{
+        font-size: 2rem;
+    }
+}
